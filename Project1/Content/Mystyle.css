@@ -1,4 +1,69 @@
-﻿.ImageBackgound {
-    background-image: url(~/Image/education-institutional-banner-img.jpg);
-
+﻿.intro-container {
+    height: 500px;
+    background: url(/Content/Image/education-institutional-banner-img.jpg) no-repeat center center / cover;
 }
+
+    .intro-container .content {
+        color: white;
+        padding-top: 110px;
+    }
+
+button.btn-rd {
+    border-radius: 25px;
+    background-color: #005797;
+    color: white;
+    text-transform: uppercase;
+    width: 250px;
+}
+
+.course-container {
+    padding-top: 40px;
+}
+
+.list-content {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+    .list-content .title {
+        padding-bottom: 30px;
+    }
+
+    .list-content h4 {
+        color: darkblue;
+        font-weight: bold;
+    }
+
+label.btn-rd {
+    border-radius: 8px;
+    background-color: #faaa37;
+    color: white;
+    text-transform: uppercase;
+    width: 555px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+label.active {
+    background-color: #005797;
+}
+
+.all-course-container {
+    padding-top: 40px;
+}
+
+    .all-course-container .list-course {
+        padding: 10px;
+    }
+
+    .all-course-container .course {
+        border-radius: 10px;
+        background-color: white;
+        margin: 10px;
+        padding: 10px;
+    }
+    .all-course-container img {
+        width: 100%;
+        border-radius: 10px;
+    }

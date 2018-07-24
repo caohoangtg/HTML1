@@ -6,33 +6,40 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-
+    <link href="~/Content/Mystyle.css" rel="stylesheet" />
     <style>
-        #ImageBackgound {
-            height: 750px;
-            background: url(../../Content/Image/education-institutional-banner-img.jpg);
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-        }
+       
 
     </style>
 
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top navbar-light" style="height:100px; background-color: white;">
+    <div class="navbar navbar-inverse navbar-fixed-top" style=" background-color: white;">
         <div class="container">
             <div class="navbar-header">
-                <a class = "navbar-brand">
+                <a class="navbar-brand">
                     <img src="~/Content/Image/090418xd1b0rvyi4i.png" />
                 </a>
+                <div>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown link
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div id="ImageBackgound" style="text-align:center; color: white;">
-        <h4 style="vertical-align: middle;">HỆ THỐNG QUẢN LÝ ĐÀO TẠO TRÊN</h4>
-        <h4>NỀN TẢNG ĐÁM MÂY CLS</h4>
+    <div class="intro-container">
+        <div class="content text-center">
+            <h2>HỆ THỐNG QUẢN LÝ ĐÀO TẠO TRÊN</h2>
+            <h2>NỀN TẢNG ĐÁM MÂY CLS</h2>
+        </div>
     </div>
-    <div class="container body-content">
+    <div class="">
         @RenderBody()
         <hr />
         <footer>

@@ -2,265 +2,267 @@
     ViewBag.Title = "Home Page";
 }
 
-
-
-<div class="row">
-    <div class="row">
-        <p style="font-weight:bold">CLS là hệ thông quản lý đào tạo nền tảng đám mây - Cloud Learning System - cung cấp giải pháp đào tạo nội bộ và giải pháp giáo dục trực tiếp</p>
-            <span>Được 
-                <a>Hương Việt Group</a>
-                phát triển và chính thức đưa ra thương mại thừ tháng 3 năm 2017, CLS là hệ quản lý đào tào hoàn chỉnh đầu tiên tại Việt Nam triển khai theo công nghệ điện toán đám mây với đầy đủ các tính năng ưu việt của một hệ quản lý đào tạo hiện đại nhất.
+<div class="course-container container">
+    <div class="intro-content">
+        <p style="font-weight:bold">CLS là hệ thông quản lý đào tạo nền tảng đám mây - Cloud Learning System - cung cấp giải pháp đào tạo nội bộ và giải pháp giáo dục trực tuyến.</p>
+        <span>
+            Được
+            <a>Hương Việt Group</a>
+            phát triển và chính thức đưa ra thương mại thừ tháng 3 năm 2017, CLS là hệ quản lý đào tào hoàn chỉnh đầu tiên tại Việt Nam triển khai theo công nghệ điện toán đám mây với đầy đủ các tính năng ưu việt của một hệ quản lý đào tạo hiện đại nhất.
         </span>
     </div>
-    <div class="row">
-        <h4 style="color: darkblue; text-align: center;">DANH SÁCH KHÓA HỌC</h4>
-    </div>
-    <div class="row" style="text-align: center;">
-        <div class="col-md-4">
-            <a class="btn btn-info">CHỦ ĐỀ ĐỐI CHIẾU</a>
-        </div>
-        <div class="col-md-4">
-            <a class="btn btn-info">CHỦ ĐỀ 1</a>
-        </div>
-        <div class="col-md-4">
-            <a class="btn btn-info">XEM TẤT CẢ</a>
+    <div class="list-content">
+        <h4 class="text-center title">DANH SÁCH KHÓA HỌC</h4>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <button class="btn btn-rd">CHỦ ĐỀ ĐỐI CHIẾU</button>
+            </div>
+            <div class="col-md-4">
+                <button class="btn btn-rd">CHỦ ĐỀ 1</button>
+            </div>
+            <div class="col-md-4">
+                <button class="btn btn-rd">XEM TẤT CẢ</button>
+            </div>
         </div>
     </div>
 
 </div>
-<div class="row" style="background-color: #EFD8B8;">
-    <div class="row">
-        <div class="col-md-6" style="text-align: center;">
-            <a class="">KHÓA HỌC MỚI NHẤT</a>
+<div class="all-course-container" style="background-color: #EFD8B8;">
+    <div class="container">
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-rd active">
+                <input type="radio" name="options" id="option1" autocomplete="off" checked> KHÓA HỌC MỚI NHẤT
+            </label>
+            <label class="btn btn-rd">
+                <input type="radio" name="options" id="option2" autocomplete="off"> KHÓA NHIỀU HỌC VIÊN NHẤT
+            </label>
         </div>
-        <div class="col-md-6" style="text-align: center;">
-            <a class="">KHÓA NHIỀU HỌC VIÊN NHẤT</a>
-        </div>
-    </div>
-    <div class="row">
-        <div class="row">
-            <div class="col-md-3">
-                <div>
-                    <img src="~/Content/Image/1106183nrzyvypwk1.jpg" width="300" />
-                </div>
-                <h4>KIỂM TRA LÀM BÀI KIỂM TRA</h4>
-                <span>Người tạo <strong>Lê Hữu Hậu</strong></span>
-                <hr />
-                <div class="media">
+        <div class="list-course">
+            <div class="row">
+                <div class="course col">
                     <div>
+                        <img src="~/Content/Image/1106183nrzyvypwk1.jpg" alt="" />
+                    </div>
+                    <h4>KIỂM TRA LÀM BÀI KIỂM TRA</h4>
+                    <span>Người tạo <strong>Lê Hữu Hậu</strong></span>
+                    <hr />
+                    <div class="media">
+                        <div>
 
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
                     </div>
                     <div>
-
-                    </div>
-                    <div>
-
-                    </div>
-                </div>
-                <div>
-                    <div class="col-md-6" style="text-align: center;">
-                        <a class="btn btn-info">Xem chi tiết</a>
-                    </div>
-                    <div class="col-md-6" style="text-align: center;">
-                        <a class="btn btn-primary">Đăng ký ngay</a>
+                        <div class="col-md-6" style="text-align: center;">
+                            <a class="btn btn-info">Xem chi tiết</a>
+                        </div>
+                        <div class="col-md-6" style="text-align: center;">
+                            <a class="btn btn-primary">Đăng ký ngay</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div>
-                    <img src="~/Content/Image/1106183nrzyvypwk1.jpg" width="300" />
-                </div>
-                <h4>KIỂM TRA LÀM BÀI KIỂM TRA</h4>
-                <span>Người tạo <strong>Lê Hữu Hậu</strong></span>
-                <hr />
-                <div class="media">
+                <div class="course col">
                     <div>
+                        <img src="~/Content/Image/1106183nrzyvypwk1.jpg" alt="" />
+                    </div>
+                    <h4>KIỂM TRA LÀM BÀI KIỂM TRA</h4>
+                    <span>Người tạo <strong>Lê Hữu Hậu</strong></span>
+                    <hr />
+                    <div class="media">
+                        <div>
 
-                    </div>
-                    <div>
+                        </div>
+                        <div>
 
-                    </div>
-                    <div>
+                        </div>
+                        <div>
 
-                    </div>
-                </div>
-                <div>
-                    <div class="col-md-6" style="text-align: center;">
-                        <a class="btn btn-info">Xem chi tiết</a>
-                    </div>
-                    <div class="col-md-6" style="text-align: center;">
-                        <a class="btn btn-primary">Đăng ký ngay</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div>
-                    <img src="~/Content/Image/1106183nrzyvypwk1.jpg" width="300" />
-                </div>
-                <h4>KIỂM TRA LÀM BÀI KIỂM TRA</h4>
-                <span>Người tạo <strong>Lê Hữu Hậu</strong></span>
-                <hr />
-                <div class="media">
-                    <div>
-
+                        </div>
                     </div>
                     <div>
-
-                    </div>
-                    <div>
-
+                        <div class="col-md-6" style="text-align: center;">
+                            <a class="btn btn-info">Xem chi tiết</a>
+                        </div>
+                        <div class="col-md-6" style="text-align: center;">
+                            <a class="btn btn-primary">Đăng ký ngay</a>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <div class="col-md-6" style="text-align: center;">
-                        <a class="btn btn-info">Xem chi tiết</a>
-                    </div>
-                    <div class="col-md-6" style="text-align: center;">
-                        <a class="btn btn-primary">Đăng ký ngay</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div>
-                    <img src="~/Content/Image/1106183nrzyvypwk1.jpg" width="300" />
-                </div>
-                <h4>KIỂM TRA LÀM BÀI KIỂM TRA</h4>
-                <span>Người tạo <strong>Lê Hữu Hậu</strong></span>
-                <hr />
-                <div class="media">
+                <div class="course col">
                     <div>
+                        <img src="~/Content/Image/1106183nrzyvypwk1.jpg" alt="" />
+                    </div>
+                    <h4>KIỂM TRA LÀM BÀI KIỂM TRA</h4>
+                    <span>Người tạo <strong>Lê Hữu Hậu</strong></span>
+                    <hr />
+                    <div class="media">
+                        <div>
 
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
                     </div>
                     <div>
-
-                    </div>
-                    <div>
-
+                        <div class="col-md-6" style="text-align: center;">
+                            <a class="btn btn-info">Xem chi tiết</a>
+                        </div>
+                        <div class="col-md-6" style="text-align: center;">
+                            <a class="btn btn-primary">Đăng ký ngay</a>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <div class="col-md-6" style="text-align: center;">
-                        <a class="btn btn-info">Xem chi tiết</a>
+                <div class="course col">
+                    <div>
+                        <img src="~/Content/Image/1106183nrzyvypwk1.jpg" alt="" />
                     </div>
-                    <div class="col-md-6" style="text-align: center;">
-                        <a class="btn btn-primary">Đăng ký ngay</a>
+                    <h4>KIỂM TRA LÀM BÀI KIỂM TRA</h4>
+                    <span>Người tạo <strong>Lê Hữu Hậu</strong></span>
+                    <hr />
+                    <div class="media">
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col-md-6" style="text-align: center;">
+                            <a class="btn btn-info">Xem chi tiết</a>
+                        </div>
+                        <div class="col-md-6" style="text-align: center;">
+                            <a class="btn btn-primary">Đăng ký ngay</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                <div>
-                    <img src="~/Content/Image/1106183nrzyvypwk1.jpg" width="300" />
-                </div>
-                <h4>KIỂM TRA LÀM BÀI KIỂM TRA</h4>
-                <span>Người tạo <strong>Lê Hữu Hậu</strong></span>
-                <hr />
-                <div class="media">
-                    <div>
 
-                    </div>
+            <div class="row">
+                <div class="col-md-3">
                     <div>
+                        <img src="~/Content/Image/1106183nrzyvypwk1.jpg" width="300" />
+                    </div>
+                    <h4>KIỂM TRA LÀM BÀI KIỂM TRA</h4>
+                    <span>Người tạo <strong>Lê Hữu Hậu</strong></span>
+                    <hr />
+                    <div class="media">
+                        <div>
 
-                    </div>
-                    <div>
+                        </div>
+                        <div>
 
-                    </div>
-                </div>
-                <div>
-                    <div class="col-md-6" style="text-align: center;">
-                        <a class="btn btn-info">Xem chi tiết</a>
-                    </div>
-                    <div class="col-md-6" style="text-align: center;">
-                        <a class="btn btn-primary">Đăng ký ngay</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div>
-                    <img src="~/Content/Image/1106183nrzyvypwk1.jpg" width="300" />
-                </div>
-                <h4>KIỂM TRA LÀM BÀI KIỂM TRA</h4>
-                <span>Người tạo <strong>Lê Hữu Hậu</strong></span>
-                <hr />
-                <div class="media">
-                    <div>
+                        </div>
+                        <div>
 
+                        </div>
                     </div>
                     <div>
-
-                    </div>
-                    <div>
-
+                        <div class="col-md-6" style="text-align: center;">
+                            <a class="btn btn-info">Xem chi tiết</a>
+                        </div>
+                        <div class="col-md-6" style="text-align: center;">
+                            <a class="btn btn-primary">Đăng ký ngay</a>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <div class="col-md-6" style="text-align: center;">
-                        <a class="btn btn-info">Xem chi tiết</a>
-                    </div>
-                    <div class="col-md-6" style="text-align: center;">
-                        <a class="btn btn-primary">Đăng ký ngay</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div>
-                    <img src="~/Content/Image/1106183nrzyvypwk1.jpg" width="300" />
-                </div>
-                <h4>KIỂM TRA LÀM BÀI KIỂM TRA</h4>
-                <span>Người tạo <strong>Lê Hữu Hậu</strong></span>
-                <hr />
-                <div class="media">
+                <div class="col-md-3">
                     <div>
+                        <img src="~/Content/Image/1106183nrzyvypwk1.jpg" width="300" />
+                    </div>
+                    <h4>KIỂM TRA LÀM BÀI KIỂM TRA</h4>
+                    <span>Người tạo <strong>Lê Hữu Hậu</strong></span>
+                    <hr />
+                    <div class="media">
+                        <div>
 
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
                     </div>
                     <div>
-
-                    </div>
-                    <div>
-
-                    </div>
-                </div>
-                <div>
-                    <div class="col-md-6" style="text-align: center;">
-                        <a class="btn btn-info">Xem chi tiết</a>
-                    </div>
-                    <div class="col-md-6" style="text-align: center;">
-                        <a class="btn btn-primary">Đăng ký ngay</a>
+                        <div class="col-md-6" style="text-align: center;">
+                            <a class="btn btn-info">Xem chi tiết</a>
+                        </div>
+                        <div class="col-md-6" style="text-align: center;">
+                            <a class="btn btn-primary">Đăng ký ngay</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div>
-                    <img src="~/Content/Image/1106183nrzyvypwk1.jpg" width="300" />
+                <div class="col-md-3">
+                    <div>
+                        <img src="~/Content/Image/1106183nrzyvypwk1.jpg" width="300" />
+                    </div>
+                    <h4>KIỂM TRA LÀM BÀI KIỂM TRA</h4>
+                    <span>Người tạo <strong>Lê Hữu Hậu</strong></span>
+                    <hr />
+                    <div class="media">
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col-md-6" style="text-align: center;">
+                            <a class="btn btn-info">Xem chi tiết</a>
+                        </div>
+                        <div class="col-md-6" style="text-align: center;">
+                            <a class="btn btn-primary">Đăng ký ngay</a>
+                        </div>
+                    </div>
                 </div>
-                <h4>KIỂM TRA LÀM BÀI KIỂM TRA</h4>
-                <span>Người tạo <strong>Lê Hữu Hậu</strong></span>
-                <hr />
-                <div class="media">
+                <div class="col-md-3">
                     <div>
+                        <img src="~/Content/Image/1106183nrzyvypwk1.jpg" width="300" />
+                    </div>
+                    <h4>KIỂM TRA LÀM BÀI KIỂM TRA</h4>
+                    <span>Người tạo <strong>Lê Hữu Hậu</strong></span>
+                    <hr />
+                    <div class="media">
+                        <div>
 
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
                     </div>
                     <div>
-
-                    </div>
-                    <div>
-
-                    </div>
-                </div>
-                <div>
-                    <div class="col-md-6" style="text-align: center;">
-                        <a class="btn btn-info">Xem chi tiết</a>
-                    </div>
-                    <div class="col-md-6" style="text-align: center;">
-                        <a class="btn btn-primary">Đăng ký ngay</a>
+                        <div class="col-md-6" style="text-align: center;">
+                            <a class="btn btn-info">Xem chi tiết</a>
+                        </div>
+                        <div class="col-md-6" style="text-align: center;">
+                            <a class="btn btn-primary">Đăng ký ngay</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row" style="text-align: center;">
-        <a class="">XEM TẤT CẢ KHÓA HỌC</a>
+        <div class="row" style="text-align: center;">
+            <a class="">XEM TẤT CẢ KHÓA HỌC</a>
+        </div>
     </div>
 
 </div>
@@ -281,13 +283,13 @@
     </div>
     <div class="row">
         <div class="col-md-6">
-            <img  src="~/Content/Image/240618whlfdm42eic.jpg" height="300" />
+            <img src="~/Content/Image/240618whlfdm42eic.jpg" height="300" />
         </div>
         <div class="col-md-6">
             <h4>CLS - CLOUD LEARNING SYSTEM CỦA HƯƠNG VIỆT GROUP ĐẠT GIẢI THƯỞNG SAO KHUÊ 2018</h4>
             <p>
                 Hệ thống quản lý đào tạo trên nền tảng đám mấy CLS - Cloud Learning System đã vinh dự nhận Danh hiệu Sao Khuê 2018 cho nhóm sản phẩm, giải pháp phần mềm thương mại tiêu biểu của Việt Nam trong lĩnh vực Giáo dục Đào tạo.
-             </p>
+            </p>
             <p>
                 Với những tính năng nổi bật như: Quản lý, lưu trữ, phân phối khoa học linh hoạt; Phân phối khóa học đền từng người, từng nhóm người, CLS giúp người học được đào tạo mọi lúc, mọi nơi, trên nhiều loại thiết bị. Không những vậy, phần mềm còn giúp DN kiểm tra, đánh giá được kết quả học tập của từng nhân sự và theo dõi được tiến trình học tập, sự tiến bộ của nhân viên trong suốt quá trình làm việc tại công ty. Các tính năng ưu việt như: Webmeeting, tổ chức kỳ thi, báo cáo tùy chọn... được tích hợp ngày trong hệ thống mà không cần sử dụng đến nền tảng của bên thứ 3.
             </p>
